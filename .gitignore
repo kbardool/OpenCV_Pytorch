@@ -201,8 +201,11 @@ wandb/
 week2/data
 week3/data
 week3/models
-week4/
-week5-project1/
+week4/data
+week5-project1/cat-dog-panda
+week5-project1/plots
+week5-project1/models
+week5-project1/mytorchinfo
 week6/
 week7-project2/
 week8/
