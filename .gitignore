@@ -13,6 +13,7 @@ __pycache__/
 *.Identifier
 # Distribution / packaging
 .Python
+*.code-workspace
 build/
 develop-eggs/
 dist/
@@ -206,11 +207,33 @@ week5-project1/cat-dog-panda
 week5-project1/plots
 week5-project1/models
 week5-project1/mytorchinfo
-week6/
-week7-project2/
-week8/
-week9/
-week10-project3/
+week6/PyTorch_Lightning/data
+week6/PyTorch_Lightning/lightning_logs
+week6/logs
+week6/logs_fashion_mnist
+week6/logs_resnet18
+week6/logs
+week6/training_pipeline/checkpoints
+week6/training_pipeline/data
+week6/training_pipeline/runs
+week7-project2/.vscode
+week7-project2/logs
+week7-project2/models
+week7-project2/wandb
+week8/faster_rcnn_fine_tuning/data
+week8/faster_rcnn_fine_tuning/checkpoints
+week9/outputs
+week9/single-stage-detector/checkpoints
+week9/single-stage-detector/data
+week9/traffic_sign_data
+week10-project3/annotations
+week10-project3/checkpoints
+week10-project3/cocoResults
+week10-project3/data
+week10-project3/video
+week10-project3/wandb
+week10-project3/*.zip
+
 week11/
 week15/
 

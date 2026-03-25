@@ -1,0 +1,23 @@
+#toml settings file
+
+# [training_config]
+# early_stopping = false
+BATCH_SIZE   = 128
+EPOCHS_COUNT = 220
+WEIGHT_DECAY = 8.0e-03
+LR_FACTOR    = 0.85
+LR_PATIENCE  = 3
+LR_COOLDOWN  = 1
+SCHEDULER    = 'ReduceLROnPlateau'
+#INITIALIZATION = "kaiming_normal"
+INIT_LEARNING_RATE = 1.0e-02
+NUM_WORKERS   = 6
+TUNING_LAYERS = ['fc', 'layer4', 'layer3']
+PROJECT_NAME  = 'OpenCV_Pytorch_Week7'
+DROPOUT_RATE  = 0.0
+LAST_EPOCH    = -1
+AUGMENTATION  = 'V5'
+WARMUP_ITERS  = 0
+OPTIMIZER     = 'SGD'
+CLASS_BOOST   = [1, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1]
+USE_TENSORBOARD = true
